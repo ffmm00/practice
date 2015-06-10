@@ -1,4 +1,4 @@
-public class practice3H_hash<K, V> {
+public class Practice3H_hash<K, V> {
 
 	class Node<K, V> {
 		private K key;
@@ -28,7 +28,7 @@ public class practice3H_hash<K, V> {
 	private int size;
 	private Node<K, V>[] table;
 
-	public practice3H_hash(int capacity) {
+	public Practice3H_hash(int capacity) {
 		try {
 			table = new Node[capacity];
 			this.size = capacity;
