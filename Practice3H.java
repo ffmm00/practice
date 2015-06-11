@@ -78,7 +78,7 @@ public class Practice3H {
 		Data data;
 		Data temp = new Data();
 
-		practice3H_hash<String, Data> hash = new practice3H_hash<String, Data>(13);
+		Practice3H_hash<String, Data> hash = new Practice3H_hash<String, Data>(13);
 
 		do {
 			switch (menu = SelectMenu()) {
